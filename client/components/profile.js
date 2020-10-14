@@ -13,7 +13,6 @@ const Profile = () => {
           className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10"
         >
           Profile
-          <div id="user"> {user} </div>
         </div>
         <div>
           <Link to="/dashboard">
@@ -25,6 +24,7 @@ const Profile = () => {
             Go to Main
           </Link>
         </div>
+        <div id="user"> {user} </div>
       </div>
     </div>
   )
