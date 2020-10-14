@@ -12,16 +12,16 @@ const Main = () => {
           className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10"
         >
           Main
-          <div>
-            <Link to="/dashboard/profile/f2aff656-4441-4eb8-9421-96dc51afb5a2">
-              Go to Profile
-            </Link>
-          </div>
-          <div>
-            <Link to="/dashboard">
-              Go to Root
-            </Link>
-          </div>
+        </div>
+        <div>
+          <Link to="/dashboard/profile/f2aff656-4441-4eb8-9421-96dc51afb5a2">
+            Go to Profile
+          </Link>
+        </div>
+        <div>
+          <Link to="/dashboard">
+            Go to Root
+          </Link>
         </div>
       </div>
     </div>
