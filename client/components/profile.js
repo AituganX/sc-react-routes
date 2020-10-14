@@ -24,7 +24,7 @@ const Profile = () => {
             Go to Main
           </Link>
         </div>
-        <div id="user"> {user} </div>
+        <div id="username"> {user} </div>
       </div>
     </div>
   )
